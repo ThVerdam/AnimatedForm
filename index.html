@@ -2,31 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>To Do</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Screen</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <section class="form-section">
-        <h1>Todo List</h1>
-        <div id="form=wrapper">
-            <div id="list" action="">
-                <div>
-                    <ul>
+        <h1>Login</h1>
 
-                    </ul>
-                    <div id="input-block">
-                        <input id="inpt" type="text" name="ToDo">
-                    </div>
-                    <button id="btn">Confirm</button>
-                    <script src="animation.js"></script>
+        <div class="form-wrapper">
+            <form action="">
+                <div class="input-block">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" />
                 </div>
-            </div>
+                <div class="input-block">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" />
+                </div>
+                <button type="submit" class="btn-login">Login</button>
+            </form>
         </div>
     </section>
+
+    <script src="animation.js"></script>
 </body>
 
 </html>
